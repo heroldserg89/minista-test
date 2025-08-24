@@ -1,6 +1,6 @@
 import './Logo.scss'
 import clsx from 'clsx'
-
+import logoScr from '../../../public/images/logo.svg';
 export default (props) => {
   const { className, loading = 'lazy' } = props
 
@@ -15,7 +15,7 @@ export default (props) => {
     >
       <img
         className="logo__image"
-        src="./images/logo.svg"
+        src={logoScr}
         alt=""
         width={200}
         height={68}
