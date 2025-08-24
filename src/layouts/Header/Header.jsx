@@ -11,11 +11,11 @@ export default (props) => {
   const menuItems = [
     {
       label: 'Home',
-      href: '/',
+      href: './',
     },
     {
       label: 'About',
-      href: '/about',
+      href: './about',
     },
   ]
 
