@@ -9,13 +9,13 @@ export default (props) => {
   return (
     <a
       className={clsx('logo', className)}
-      href="/"
+      href="./"
       title={title}
       aria-label={title}
     >
       <img
         className="logo__image"
-        src="/images/logo.svg"
+        src="./images/logo.svg"
         alt=""
         width={200}
         height={68}
